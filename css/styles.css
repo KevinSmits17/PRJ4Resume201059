@@ -2,27 +2,48 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://use.typekit.net/ntr1lcq.css');
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #555555;
+}
+h2 {
+	font-weight: 700;
+	color: white
+}
+h4 {
+	color: #ffffff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
+h5{
+	color: white;
+}
+h6{
+	color: #555555
+}
+li{
+	color: white;
+}
+
+.sidetext{
+	color: #555555;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #b33718;
+	color: white;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #171b1e;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #ffffff;
 }
 
 /* Styles for lists in the document */
